@@ -112,7 +112,6 @@ const WhiteNavbar: React.FC = () => {
                   <span className="relative z-10">{name}</span>
                 </Link>
               ))}
-              <button onClick={()=>handleLogOut()}>Logout</button>
             </div>
           </div>
           <div className="flex items-center justify-end gap-6">
@@ -175,7 +174,6 @@ const WhiteNavbar: React.FC = () => {
                               href="/insights"
                               content="Insights"
                             />
-                              <button onClick={()=>handleLogOut()}>Logout</button>
                           </div>
                         </Popover.Panel>
                       </>
