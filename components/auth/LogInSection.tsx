@@ -46,7 +46,6 @@ const LoginSection: React.FC<LogInProps> = ({
     }
   }, [isSuccess]);
 
-  console.log(data);
  
 
 
